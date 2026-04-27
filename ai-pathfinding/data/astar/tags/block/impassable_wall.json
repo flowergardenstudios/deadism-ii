@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#fire",
+        "#fences",
+        "#walls",
+        "powder_snow",
+        "#astar:penalty/danger"
+    ]
+}
