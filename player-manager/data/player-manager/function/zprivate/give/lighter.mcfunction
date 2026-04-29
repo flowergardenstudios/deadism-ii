@@ -1,0 +1,1 @@
+give @s torch[item_model="deadism:props/lighter", item_name="", custom_data={deadism:{type:"lighter", id:1}}]
