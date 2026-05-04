@@ -1,0 +1,3 @@
+execute if items entity @s weapon *[custom_data~{deadism:{}}] if items entity @s weapon.offhand *[custom_data~{deadism:{}}] store result score @s deadism.player.HoldingItem run return run data get entity @s equipment.components."minecraft:custom_data".deadism.id
+execute if items entity @s weapon *[custom_data~{deadism:{}}] if items entity @s weapon.mainhand *[custom_data~{deadism:{}}] store result score @s deadism.player.HoldingItem run return run data get entity @s SelectedItem.components."minecraft:custom_data".deadism.id
+execute unless items entity @s weapon.* *[custom_data~{deadism:{}}] run scoreboard players reset @s deadism.player.HoldingItem
